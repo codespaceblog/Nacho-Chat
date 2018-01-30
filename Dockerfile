@@ -1,9 +1,9 @@
 FROM codenvy/cpp
 
-WORKDIR /codespaceblog/nachochat/
+WORKDIR /Codespaceblog/Nacho-Chat/
 
 COPY . .
 
-RUN sudo chgrp -R user /codespaceblog/
+RUN sudo chgrp -R user /Codespaceblog/
 
-RUN sudo chmod -R 775 /codespaceblog/
+RUN sudo chmod -R 775 /Codespaceblog/
