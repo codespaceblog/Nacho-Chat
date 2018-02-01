@@ -5,4 +5,6 @@ int main()
 {
     cout << "Hello, Server\n";
 
+    return 0;
+
 }
